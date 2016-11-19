@@ -1,6 +1,6 @@
 import wikipedia
 
-class wikiSearch:
+class WikiSearch:
 
 	def __init__(self):
 		return
