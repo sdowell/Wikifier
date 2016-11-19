@@ -1,3 +1,18 @@
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.datasets import fetch_20newsgroups
+from sklearn.metrics.pairwise import linear_kernel
+
+twenty = fetch_20newsgroups()
+
+tfidf = TfidfVectorizer().fit_transform(twenty.data)
+print(tfidf)
+print(tfidf[0:1])
+cosine_similarities = linear_kernel(tfidf[0:1], tfidf).flatten()
+print(cosine_similarities)
+related_docs_indices = cosine_similarities.argsort()[:-5:-1]
+print(related_docs_indices)
+print(cosine_similarities[related_docs_indices])
+
 # class for calculating similarity ranking (using tf-idf)
 class simRank:
 	def __init__(self):
