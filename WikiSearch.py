@@ -5,7 +5,7 @@ class wikiSearch:
 	def __init__(self):
 		return
 		
-	def search(query):
+	def search(self, query):
 		results = wikipedia.search(query)
 		pages = []
 		for r in results:
@@ -13,10 +13,11 @@ class wikiSearch:
 				p = wikipedia.page(r)
 				pages.append(p)
 			except:
+				print("Couldn't find entry for " + r)
 				continue
 		return pages
 		
-	def page(query):
+	def page(self, query):
 		try:
 			p = wikipedia.page(query)
 			return p
