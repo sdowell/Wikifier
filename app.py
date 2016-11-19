@@ -7,7 +7,7 @@ def parseTrainFile(trainfile):
 	
 
 def train(weights, trainfile):
-	
+	return
 
 def main(argv):
 	if len(argv) == 0:
