@@ -1,0 +1,43 @@
+
+   
+   
+      
+         
+            How To Do an IPO
+            
+
+            In purely financial terms, yesterday's initial public offering from Linux
+ networker Andover.net will go down as just another in a series of remarkable
+ first-day debuts. The company's shares priced at $18, opened at close to $50,
+ and closed the day at $63 3/8. (Andover.net's shares jumped another 14 1/8
+ points today.) In other words, it looked just like a typical tech IPO in this
+ frothiest of markets. But in fact there was nothing typical about the success
+ of the Andover.net IPO. This was a deal the ramifications of which we're going
+ to be feeling for years to come.
+
+            That's because Andover.net was the third company to be taken public by W.R.
+ Hambrecht, the investment bank that is attempting to transform the IPO process
+ by replacing the traditional method of allocating shares and setting opening
+ prices with what's called a Dutch auction. (See 
+                  Slate
+               's "Explainer"
+ for more on Dutch auctions.) In a typical IPO, the lead underwriter sets an
+ initial filing price, then takes provisional orders from institutional
+ investors that it uses to gauge demand. The filing price can be adjusted upward
+ if demand is strong enough, but in general the offering price for a company
+ going public is considerably below the market-clearing price. As a result,
+ investors who are able to get in on an IPO have a very good chance of reaping
+ some easy gains.
+
+            In a Dutch auction, by contrast, the price is essentially determined by the
+ investors, who submit the highest price they're willing to pay and the number
+ of shares they want at that price. The people who bid the highest (and, if they
+ bid the same price, the earliest) get first dibs on the shares, which are then
+ allocated in order from highest to lowest bid, until they're all gone. No
+ matter what you bid, though, the price you pay is the lowest price that any
+ investor who got shares bid.
+
+            This is a superior way of pricing an IPO because no one gets shares on the
+ basis of who they know, and because it ensures that the company going public
+ isn't going to leave too much money on the table by going public at a lower
+ price than the one the market was willing to pay.

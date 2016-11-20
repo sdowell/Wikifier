@@ -1,0 +1,45 @@
+
+   
+   
+      
+         
+            Mo' beta SLATE.
+
+            
+               Mo' Beta
+ Slate
+            
+
+            Slate proudly announces
+ Slate Explorer, a new way to navigate through the delights of slate.com. (So
+ why didn't we name it Slate Navigator ? We dunno. Explorer just seemed
+ more euphonious, somehow.) We think it's pretty darn cool (a technical
+ software industry term, used to imply strong feelings of affirmation), and hope
+ you will as well. (Click here for instructions on how to download Slate
+ Explorer.)
+
+            And what is Slate Explorer?
+ It's a poem, an ice cream cone on a hot summer day, the smell of Styrofoam when
+ you crack open that box containing your new computer. It's ... well, it's a
+ small program, actually, that puts a small box on your Windows desktop. (Sorry,
+ it doesn't work on Macs. Yes, we know, we know. ... But to be fair, it doesn't
+ work on Windows 3.1 either. It does work on Windows 95 or Windows NT 4.0.)
+ Click on the little arrow, and the box expands horizontally into a list of
+ Slate's major categories (Briefing, Columns & Features, Back of the Book,
+ Dispatches & Dialogues, Utilities). Click on a category, and it expands
+ vertically into a list of current contents. Click on one of these listings, and
+ the article will appear.
+
+            Slate Explorer works, in
+ most cases, even when you're not online. When you select an article, the
+ program will launch your browser and initiate a Web connection. When you are
+ online, Slate Explorer will automatically update itself, even if--for some
+ inexplicable reason--you're not reading Slate at the moment. It's all a bit
+ hard to explain, but fun to try.
+
+            Now, listen carefully. This
+ is a beta release of Slate Explorer. "Beta" is a software industry term
+ for a product that is perhaps just a teensy bit short of absolute perfection,
+ but is being released anyway because we just can't wait anymore--or rather,
+ because we want to let the software-using community share in the excitement of
+ finding any last-minute bugs.

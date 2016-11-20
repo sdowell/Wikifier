@@ -1,0 +1,56 @@
+
+   
+   
+      
+         
+            Murphy's Law: A Chatterbox Investigation
+
+            The death of Air Force Capt. John Paul Stapp, who during the 1940s and '50s
+ allowed his body to be used in various experiments testing the effects of
+ high-speed transportation, provides an occasion to consider how Murphy's Law
+ came into being. The New York Times ' obituary of Stapp, who died Nov. 13 at the ripe age of 89, tells
+ it this way:
+
+            
+
+               
+                  Stapp, who was known for his razor-sharp wit, suffered an injury in the
+ experiment that inspired Murphy's Law, after a ... rapid sled ride in
+ 1949.
+               
+
+               An assistant, Capt. Edward Murphy Jr., had designed a harness to strap the
+ rider in. The harness held 16 sensors to measure the acceleration, or G-force,
+ on different parts of the body. There were exactly two ways each sensor could
+ be installed. Murphy did each one the wrong way.
+
+               The result was that when Stapp staggered off the rocket sled with bloodshot
+ eyes and bleeding sores, all the sensors registered zero. He had been
+ restrained in vain.
+
+               A distraught Murphy proclaimed the original version of the famous maxim: "If
+ there are two or more ways to do something and one of those results in a
+ catastrophe, then someone will do it that way."
+
+            
+
+            But a 1978 article by Ted Bear, then a flight-center historian at
+ Edwards Air Force Base in California, where the experiment in question took
+ place, tells it this way:
+
+            
+
+               
+                  [Murphy's Law] was named after Capt. Edward A. Murphy, an engineer
+ working on Air Force Project MX981, [a project] designed to see how much sudden
+ deceleration a person can stand in a crash.
+               
+
+               One day, after finding that a transducer was wired wrong, he cursed the
+ technician responsible and said, "If there is any way to do it wrong, he'll
+ find it."
+
+            
+
+            Both versions of the story have the same basic theme, which is that it's
+ always good to be prepared for lots of things going wrong.

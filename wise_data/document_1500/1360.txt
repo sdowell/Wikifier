@@ -1,0 +1,47 @@
+
+   
+   
+      
+         
+            
+
+            
+               A Tough
+ Decision
+            
+
+            You might notice in the next
+ few days, we hope, that Slate's pages are being served up to you a bit faster.
+ (Well, this Thursday we were still serving up Wednesday's edition for a good
+ part of the morning, but that's a different story.) The reason for the
+ increased speed is new Web server software. This is the software we use to
+ deliver pages to you.
+
+            We knew
+ it was time to upgrade, but we faced a dilemma: Which new server software
+ should we choose? The software business is viciously competitive, of course,
+ and we didn't make our choice lightly. Deputy Editor Jack Shafer headed an
+ investigative team of editors, writers, developers, and a demographically
+ correct cross section of Slate readers (83 percent male, 77 percent college
+ graduates, 3.9 percent cross-dressers, 17 percent purchasers of a toaster or
+ other electrical appliance in the past three months).
+
+            Our ServerSearch 
+               TM team traveled the
+ globe in pursuit of the very best software for serving you, our readers. In an
+ Eskimo village near the Arctic Circle in Alaska, they sampled server software
+ made with whale blubber, as the natives have been doing it for thousands of
+ years. In China, the team met a 6-year-old boy who has developed server
+ software based on Confucian principles and the sayings of the late chairman
+ Deng Xiaoping ("Better a pig with HTML than a donkey who knows DOS"). In
+ Silicon Valley, they were wined, dined, and offered bribes by slick
+ twentysomething CEOs of companies with names like Fraudicom, EgoSoft, and Greed
+ Systems PLC.
+
+            Back here
+ in Redmond, the team rigorously tested each piece of software on genetically
+ engineered laboratory mice. Could the mice design a Web page with working
+ hyperlinks? Did they develop cancer or brain tumors? Did they turn into
+ Internet bores? The software was then exposed to extreme conditions: zero
+ gravity, below-freezing temperatures, peanut butter in the disk drive, elderly
+ grandparents with their first computers, etc.

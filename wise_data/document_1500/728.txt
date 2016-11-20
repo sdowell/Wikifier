@@ -1,0 +1,43 @@
+
+   
+   
+      
+         
+            Real-World Libertarians and the Net
+            
+
+            I'm finding it a bit hard to locate my book in Richard's kickoff to this
+ discussion. Its argument is not, as he suggests, that "liberty converges onto
+ anarchy." To the contrary: My argument is that a certain form of libertarianism
+ will lead to less liberty. A certain form of libertarianism--a knee jerk
+ libertarianism that looks at every proposed intervention by government and says
+ "leave the Net alone." My argument is that this response will lead to a Net
+ with far less liberty than the Net we know now, with a potential to be far more
+ regulated than any world we have known--ever.
+
+            How?
+
+            That's the second part of the argument that seems to have gone missing: that
+ the liberty, or freedom, that cyberspace guarantees now is a function of the
+ architecture of that space. That that architecture--which I call "code,"
+ meaning the software and hardware that constitutes cyberspace as it is--was
+ initially an architecture that protected fundamental freedoms. But that that
+ architecture is changing. As it changes, the freedoms that the Net will
+ guarantee changes as well.
+
+            How is it changing?
+
+            This is the third part AWOL in this initial kickoff of a discussion. The
+ original architecture, given to us by researchers and hackers and generally
+ libertarian sorts, is being changed as new layers of code are being added to
+ this architecture. And these new layers are being added not by the same
+ libertarian sorts who gave us the initial version of the Internet. They are
+ being added by coders who work for commerce. The values implicit in their code
+ are different from the values implicit in the code of the original Internet.
+ And under one story about how that code evolves, they threaten to flip the
+ character of the Net--from a place that protects liberty to a place where
+ liberty has been coded away.
+
+            Rather than focusing on those arguments, Richard wants to defend
+ "libertarianism"--a cause that he has admirably defended for a great deal of
+ time.

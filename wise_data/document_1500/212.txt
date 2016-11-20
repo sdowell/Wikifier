@@ -1,0 +1,36 @@
+Description of the Integrated Planning Model (IPM)
+ Analytical Framework of IPM
+ ? EPA uses the Integrated Planning Model (IPM) to analyze the
+ projected impact of environmental policies on the electric power
+ sector in the 48 contiguous states and the District of Columbia.
+ Developed by ICF Resources Incorporated and used to support public
+ and private sector clients, IPM is a multi-regional, dynamic,
+ deterministic linear programming model of the U.S. electric power
+ sector.
+ ? The model provides forecasts of least-cost capacity
+ expansion, electricity dispatch, and emission control strategies
+ for meeting energy demand and environmental, transmission,
+ dispatch, and reliability constraints. IPM can be used to evaluate
+ the cost and emissions impacts of proposed policies to limit
+ emissions of sulfur dioxide (SO2), nitrogen oxides (NOx), carbon
+ dioxide (CO2), and mercury (Hg) from the electric power
+ sector.
+ ? IPM was a key analytical tool in developing the President's
+ Clear Skies proposal.
+ IPM Is Well Suited to Model Multi-Emission Control Programs
+ ? Among the factors that make IPM particularly well suited to
+ model multi-emissions control programs are (1) its ability to
+ capture complex interactions among the electric power, fuel, and
+ environmental markets, (2) its detail-rich representation of
+ emission control options encompassing a broad array of retrofit
+ technologies along with emission reductions through fuel switching,
+ changes in capacity mix, and electricity dispatch strategies, and
+ (3) its capability to model a variety of environmental market
+ mechanisms, such as emissions caps, allowances, trading, and
+ banking.
+ ? IPM is particularly well suited for modeling Clear Skies
+ because the program relies on the operation of an allowance market,
+ the availability of a broad range of emissions reduction options,
+ and empowerment of economic actors to achieve emission limits.
+ Extensive documentation of the IPM is available at
+ http://www.epa.gov/airmarkets/epa-ipm/index.html.

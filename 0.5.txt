@@ -1,0 +1,50 @@
+1	251	Student_of_the_Year	student of      the year
+1	500	Auction	silent auction
+1	790	Guardian_angel	guardian angel
+1	1593	Foreign_language_writing_aid	writing skills
+1	1696	Drill_instructor	drill sergeant
+2	421	Budget_of_NASA	operating budget
+2	637	Girl_Scouts_of_the_USA	Girl Scouts
+2	689	Strategy%2BBusiness	business leaders
+2	726	Girl_Scouts_of_the_USA	Girl Scouting
+2	860	Lou_Dobbs	Lou Harris
+2	923	Strategy%2BBusiness	business leaders
+2	945	Girl_Scouts_of_the_USA	Girl Scout
+2	1070	Girl_Scouts_of_the_USA	Girl Scout
+3	37	Shopping_mall	Mall Street Journal
+3	176	The_Wall_Street_Journal	Wall Street Journal
+3	466	Swimming_pool	inground pools
+3	571	Mucho_Macho_Man	macho
+3	970	Adventure_Life	adventure travel
+3	1060	Algorithmic_trading	day trading
+3	1488	George_W._Bush	George W. Bush
+3	1523	Al_Gore	Al Gore
+3	1532	George_W._Bush	Bush
+3	1851	George_W._Bush	Bush
+3	1888	Political_compass	political journalist
+3	1912	United_States	America
+4	33	Algorithmic_trading	Day Trading
+4	148	Atlanta	Atlanta
+4	275	Algorithmic_trading	day trading
+4	362	Algorithmic_trading	day trading
+4	477	Computer_monitor	computer screen
+4	573	Algorithmic_trading	day trading
+4	966	Rogue_Traders	day traders
+4	1045	Algorithmic_trading	day trading
+4	1158	Rogue_Traders	day traders
+4	1233	List_of_S%26P_500_companies	S&P 500
+4	1267	Index_fund	index fund
+4	1341	Index_fund	index fund
+4	1369	Carrying_cost	opportunity cost
+4	1449	Rogue_Traders	day traders
+4	1506	Carrying_cost	opportunity cost
+4	1640	Algorithmic_trading	Day trading
+4	1717	Stock_market	stock prices
+4	1810	Academic_studies_about_Wikipedia	academic studies
+4	1883	Stock_market	stock prices
+4	1916	Random_walk	random walk
+5	61	The_Washington_Post	The Washington Post
+5	83	The_New_York_Times	New York Times
+5	104	Los_Angeles_Times	Los Angeles Times
+5	199	Bush_tax_cuts	tax cut
+5	265	USA_Today	USA

@@ -1,0 +1,40 @@
+
+   
+   
+      
+         
+            Softwar
+
+            The two antitrust lawsuits filed against Microsoft by the Justice Department
+ and twenty states lead at the New York Times ,
+ Los
+ Angeles Times , and Washington Post . The suits are also flagged at the top of
+ the Wall Street Journal front-page news box. They are
+ the off-lead at USA Today (and also covered in that paper's front-page
+ "cover story"), which leads instead with the news that in working out the $200
+ billion highway bill, congressional negotiators dropped the provision that
+ would have set a tough national drunk-driving standard.
+
+            The papers all have the same basic lawsuit details: The government and state
+ lawyers argue that after an abortive attempt at an "illegal conspiracy" deal
+ with browser rival Netscape, Microsoft violated antitrust laws by using its
+ virtual lock with Windows to dominate the Internet browser market. Although
+ Microsoft has already begun shipping Windows 98, the plaintiffs have asked a
+ judge to issue a quick preliminary injunction requiring the company to either
+ take its own browser out of that program or also include Netscape's browser.
+ And preventing Microsoft from enforcing contracts with online service providers
+ that would restrict the providers from also offering their customers
+ alternative browsers. (An area, says the NYT , that MS was apparently flexible about before
+ negotiations broke down over the weekend.) The state suit additionally asks for
+ Microsoft to be forced to change the way it sells its "Office" software to
+ computer manufacturers so that they would be freer to license competitors'
+ software.
+
+            Bill Gates is quoted in the WP saying that these government demands
+ for inclusion of competitors is like "requiring Coca-Cola to include three cans of Pepsi in every
+ six-pack." The NYT lead editorial says the analogy is bad because Coke
+ isn't a monopoly.
+
+            The government's papers include Microsoft internal e-mails and memos as well
+ as interviews and depositions of Microsoft executives, which, USAT says,
+ the government attorneys consider smoking-gun evidence.
