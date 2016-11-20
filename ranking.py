@@ -18,6 +18,12 @@ class simRank:
 	def __init__(self):
 		return
 
+	def rank(self, query, docs):
+		docs.insert(0, query)
+		tfidf = TfidfVectorizer().fit_transform(docs)
+		cosine_similarities = linear_kernel(tfidf[0:1], tfidf).flatten()
+		return cosine_similarities[1:]
+	
 	def sim():
 		return
 
