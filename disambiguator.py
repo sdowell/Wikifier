@@ -2,28 +2,47 @@ from query import Query
 from wikisearch import WikiSearch
 from ranking import simRank
 from ranking import priorProbRank
+import mwclient
+#from app import toAscii
 import time
 
 def getWikiName(url):
-	return url.split("/")[-1]
+	return url.replace("https://en.wikipedia.org/wiki/", "")
 
+	
 class Disambiguator:
 	
-	def __init__(self, w):
-		self.wiki = WikiSearch()
+	def __init__(self, w, db):
+		self.wiki = WikiSearch(db)
 		self.simrank = simRank()
 		self.probrank = priorProbRank()
 		self.weight = w
 		self.failedSearches = 0
-		
+	
+	def getRedirect(self, source):
+		return self.wiki.getRedirect(source)
+	
 	def disambiguate(self, query, truth=None):
-		print("Disambiguating " + str(query.entity.encode("utf-8")))
-		#t0 = time.clock()
-		candidates = self.wiki.search(query.entity)
-		if len(candidates) == 0:
+		try:
+			st = str(query.entity.encode("utf-8"))
+			#print("Disambiguating " + str(query.entity.encode("utf-8")))
+		except:
+			#print("Disambiguating: [unprintable entity]")
 			return ""
-		if truth is not None and truth.lower() not in [getWikiName(c.url).lower() for c in candidates]:
-			print("Truth value (" + truth + ") not in " + str([c.url for c in candidates]))
+		#t0 = time.clock()
+		candidates = self.wiki.dbSearch(query.entity)
+		if len(candidates) == 0:
+			self.failedSearches += 1
+#			print("Truth value (" + truth + ") not in " + str([c.url for c in candidates]))
+			return ""
+#		if truth is not None and truth.lower() not in [getWikiName(c.url).lower() for c in candidates]:
+		if truth is not None and self.getRedirect(truth).lower() not in [c.title.lower() for c in candidates]:
+			#print(getRedirect(truth))
+			#print(str([c.title for c in candidates]))
+#			try:
+#				print("Truth value (" + truth + ") not in " + str([c.url for c in candidates]))
+#			except:
+#				print("Couldn't find truth value for " + truth)
 			self.failedSearches += 1
 		#t1 = time.clock()
 		#total = t1 - t0
@@ -38,7 +57,7 @@ class Disambiguator:
 		ref = []
 		for c in candidates:
 			try:
-				ref.append(c.references)
+				ref.append(c.inlinks)
 			except:
 				ref.append([])
 		popularity = self.probrank.rank(ref)
@@ -50,7 +69,7 @@ class Disambiguator:
 		rankings = {}
 		best = candidates[0].url
 		for i in range(0,len(similarity)):
-			rankings[candidates[i].url] = self.weight * popularity[i] + (1-self.weight) * similarity[i]
+			rankings[candidates[i].url] = self.weight * popularity[i] + (1.0-self.weight) * similarity[i]
 			if rankings[candidates[i].url] > rankings[best]:
 				best = candidates[i].url
 		#print("URL: " + best)

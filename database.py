@@ -1,7 +1,44 @@
 import sqlite3
 import wikipedia
 import pickle
+import argparse
+#from wikisearch import WikiSearch
+from sqlalchemy import Table, Column, ForeignKey, Integer, String, PickleType, Boolean, Text
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import relationship, sessionmaker
+from sqlalchemy import create_engine
+from sqlalchemy.sql import exists
+Base = declarative_base()
 
+query_results = Table('query_results', Base.metadata, Column('query_id', ForeignKey('queries.input'), primary_key=True), Column('page_id', ForeignKey('wikipages.pageid'), primary_key=True) )
+
+class MyQuery(Base):
+	__tablename__ = 'queries'
+	
+	input = Column(Text, primary_key=True)
+	
+	wikipages = relationship('MyWikiPage', secondary=query_results, back_populates='queries')
+	
+class MyWikiPage(Base):
+	__tablename__ = 'wikipages'
+	
+	pageid = Column(Integer, primary_key=True)
+	
+	queries = relationship('MyQuery', secondary=query_results, back_populates='wikipages')
+	
+	title = Column(String(250))
+	url = Column(String(250))
+	isDisambiguation = Column(Boolean)
+	content = Column(Text)
+	outlinks = Column(PickleType)
+	inlinks = Column(Integer)
+
+class Redirect(Base):
+	__tablename__ = 'redirects'
+	
+	originalPage = Column(String(250), primary_key=True)
+	redirectPage = Column(String(250))
+	
 class DataBase:
 
 	def __init__(self):
@@ -24,9 +61,64 @@ class DataBase:
 		conn.close()
 		return
 		
-	
+def create(name):
+	#print(name[-3:])
+	if name[-3:] != ".db":
+		name = name + ".db"
+	engine = create_engine('sqlite:///' + name)
+	Base.metadata.create_all(engine)
 	# categories, content, images, links, title, url, summary, 
 if __name__ == "__main__":
+	#sqlalchemy
+	
+	parser = argparse.ArgumentParser()
+	parser.add_argument("-c", "--create", help="create database file (default: reddit.db)")
+	args = parser.parse_args()
+	if args.create:
+		create(args.create)
+	exit()
+	create()
+	exit()
+	engine = create_engine('sqlite:///sqlalchemy_example.db')
+	Base.metadata.bind = engine
+	DBSession = sessionmaker(bind = engine)
+	
+	session = DBSession()
+
+	ws = WikiSearch()
+	query = "WSJ"
+	row = session.query(MyQuery).filter(MyQuery.input == query).first()
+	if row == None:
+		print("WSJ not found in table")
+		newquery = MyQuery(input=query)
+		pgs = ws.mwSearch(query)
+		print("Done quering mediawiki")
+		for pg in pgs:
+			dbpage = session.query(MyWikiPage).filter(MyWikiPage.pageid == pg.pageid).first()
+			if dbpage is None:
+				dbpage = MyWikiPage(pageid = pg.pageid, title = pg.title, url = pg.url, isDisambiguation = pg.isDisambiguation, content = pg.content, outlinks = pg.outlinks, inlinks = pg.inlinks)
+			newquery.wikipages.append(dbpage)
+		session.add(newquery)
+	else:
+		print("WSJ found in table")
+		print(row.wikipages[0].content)
+		for pg in row.wikipages:
+			try:
+				print(pg.title)
+			except:
+				pass
+	#print(exists().where(MyQuery.input == query))#session.query(MyQuery).filter(MyQuery.input == query))
+	#print "Times found in db"
+	query = "Clinton"
+	row = session.query(MyQuery).filter(MyQuery.input == query).first()
+	if row == None:
+		print("Clinton not found in table")
+	else:
+		print("Clinton found in table")
+	#print "Clinton found in db"
+	session.commit()
+	exit()
+	#sqlite
 	conn = sqlite3.connect('test.db')
 	print("Opened database successfully")
 	conn.execute("DROP TABLE PAGES")
