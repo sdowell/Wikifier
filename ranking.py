@@ -19,7 +19,8 @@ if __name__ == "__main__":
 
 # class for calculating similarity ranking (using tf-idf)
 class simRank:
-	def __init__(self):
+	def __init__(self, ngrams=1):
+		self.ngrams = ngrams
 		return
 		try:
 			with open('dictionary.pickle', 'rb') as handle:
@@ -38,8 +39,8 @@ class simRank:
 		#	for w in doc.split():
 		#		self.dict.add(w)
 		#docs = [" ".join([ps.stem(w) for w in doc.split()]) for doc in docs]
-		#tfidf = TfidfVectorizer(stop_words = "english", ngram_range=(1,3), analyzer="word").fit_transform(docs)
-		tfidf = TfidfVectorizer(stop_words = "english", analyzer="word").fit_transform(docs)
+		tfidf = TfidfVectorizer(stop_words = "english", ngram_range=(1,self.ngrams), analyzer="word").fit_transform(docs)
+		#tfidf = TfidfVectorizer(stop_words = "english", analyzer="word").fit_transform(docs)
 		#print("Numdocs = " + str(len(docs)))
 		#print(tfidf.shape)
 		cosine_similarities = linear_kernel(tfidf[0:1], tfidf).flatten()

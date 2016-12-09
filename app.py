@@ -34,7 +34,7 @@ def toAscii(s):
 	#text = ' '.join([word for word in text.split()])
 	return text
 	
-def trainTwitter(weights, trainfile, db):
+def trainTwitter(weights, trainfile, db, ng):
 	print("Training Twitter...")
 	results = {}
 	output = ["" for i in range(0,len(trainfile))]
@@ -43,9 +43,9 @@ def trainTwitter(weights, trainfile, db):
 	for w in weights:
 		print("--------------------Solving for weight " + str(w) + "--------------------")
 		if str(w) == "NN":
-			d = Disambiguator(w, db, use_nn=True, trainfiles=["wise_trigramtrain.txt"])
+			d = Disambiguator(w, db, use_nn=True, trainfiles=["wise_trigramtrain.txt"], ngrams=ng)
 		else:
-			d = Disambiguator(w, db)
+			d = Disambiguator(w, db, ngrams=ng)
 		pos = 0
 		tot = 0
 		count = 0
@@ -90,7 +90,7 @@ def trainTwitter(weights, trainfile, db):
 		#break
 	return (results, fs)
 	
-def train(weights, trainfile, db):
+def train(weights, trainfile, db, ng):
 	print("Training...")
 	results = {}
 	output = ["" for i in range(0,len(trainfile))]
@@ -99,9 +99,9 @@ def train(weights, trainfile, db):
 	for w in weights:
 		print("--------------------Solving for weight " + str(w) + "--------------------")
 		if str(w) == "NN":
-			d = Disambiguator(w, db, use_nn=True, trainfiles=["wise_trigramtrain.txt"])
+			d = Disambiguator(w, db, use_nn=True, trainfiles=["wise_trigramtrain.txt"], ngrams=ng)
 		else:
-			d = Disambiguator(w, db)
+			d = Disambiguator(w, db, ngrams=ng)
 		pos = 0
 		tot = 0
 		count = 0
@@ -154,8 +154,10 @@ def main(argv):
 	parser.add_argument("-g", "--weights", help="comma delimited list of weights")
 	parser.add_argument("-n", "--neuralnet", help="use neural network model for ranking", action="store_true")
 	parser.add_argument("-p", "--printfile", help="print output to file")
+	parser.add_argument("-k", "--ngrams", help="print output to file")
 	args = parser.parse_args()
 	db = "wikipedia.db"
+	ngrams = 1
 	if args.printfile:
 		outfile = open(args.printfile, "w")
 	if args.database:
@@ -167,6 +169,8 @@ def main(argv):
 		weights.append("NN")
 	elif len(weights) == 0:
 		weights = [0.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0]
+	if args.ngrams:
+		ngrams = int(args.ngrams)
 	if args.twitter:
 		trainfile = args.twitter
 		traindata = parseTrainFile(trainfile)
@@ -174,7 +178,7 @@ def main(argv):
 		#weights = [0.05,.06,.07,.08,.09,.1,.11,.12,.13,.14,.15]
 		data = traindata
 		t0 = time.clock()
-		results, fs = trainTwitter(weights, data, db)
+		results, fs = trainTwitter(weights, data, db, ngrams)
 		t1 = time.clock()
 		total = t1 - t0
 		print("Training Time: " + str(total))
@@ -195,7 +199,7 @@ def main(argv):
 		#weights = [0.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0]
 		data = traindata[:355]
 		t0 = time.clock()
-		results, fs = train(weights, data, db)
+		results, fs = train(weights, data, db, ngrams)
 		t1 = time.clock()
 		total = t1 - t0
 		print("Training Time: " + str(total))
