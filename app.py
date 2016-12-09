@@ -158,10 +158,14 @@ def main(argv):
 	parser.add_argument("-g", "--weights", help="comma delimited list of weights")
 	parser.add_argument("-n", "--neuralnet", help="use neural network model for ranking", action="store_true")
 	parser.add_argument("-p", "--printfile", help="print output to file")
-	parser.add_argument("-k", "--ngrams", help="print output to file")
+	parser.add_argument("-k", "--ngrams", help="ngram size")
+	parser.add_argument("-r", "--numtrials", help="number of data points to evaluate")
 	args = parser.parse_args()
 	db = "wikipedia.db"
 	ngrams = 1
+	numtrials = 355
+	if args.numtrials:
+		numtrials = int(args.numtrials)
 	if args.printfile:
 		outfile = open(args.printfile, "w")
 	if args.database:
@@ -180,7 +184,10 @@ def main(argv):
 		traindata = parseTrainFile(trainfile)
 		#print(traindata[0:10])
 		#weights = [0.05,.06,.07,.08,.09,.1,.11,.12,.13,.14,.15]
-		data = traindata
+		if numtrials > len(traindata):
+			data = traindata
+		else:
+			data = traindata[:numtrials]
 		t0 = time.clock()
 		results, fs = trainTwitter(weights, data, db, ngrams)
 		t1 = time.clock()
@@ -201,7 +208,10 @@ def main(argv):
 		traindata = parseTrainFile(trainfile)
 		#print(traindata[0:10])
 		#weights = [0.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0]
-		data = traindata[:355]
+		if numtrials > len(traindata):
+			data = traindata
+		else:
+			data = traindata[:numtrials]
 		t0 = time.clock()
 		results, fs = train(weights, data, db, ngrams)
 		t1 = time.clock()
