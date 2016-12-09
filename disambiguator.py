@@ -7,15 +7,16 @@ import mwclient
 #from app import toAscii
 import time
 
+
 def getWikiName(url):
 	return url.replace("https://en.wikipedia.org/wiki/", "")
 
 	
 class Disambiguator:
 	
-	def __init__(self, w, db, use_nn=False, trainfiles=None):
+	def __init__(self, w, db, use_nn=False, trainfiles=None, ngrams=1):
 		self.wiki = WikiSearch(db)
-		self.simrank = simRank()
+		self.simrank = simRank(ngrams)
 		self.probrank = priorProbRank()
 		self.weight = w
 		self.failedSearches = 0

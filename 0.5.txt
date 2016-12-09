@@ -1,0 +1,355 @@
+1	251		student of      the year
+1	500	Auction	silent auction
+1	790	Guardian_angel	guardian angel
+1	1593		writing skills
+1	1696	Drill_instructor	drill sergeant
+2	421	Operating_budget	operating budget
+2	637	Girl_Scouts_of_the_USA	Girl Scouts
+2	689		business leaders
+2	726	Girl_Guides	Girl Scouting
+2	860	Lou_Harris	Lou Harris
+2	923		business leaders
+2	945	Girl_Guides	Girl Scout
+2	1070	Girl_Guides	Girl Scout
+3	37		Mall Street Journal
+3	176	The_Wall_Street_Journal	Wall Street Journal
+3	466		inground pools
+3	571	Surname	macho
+3	970	Adventure_travel	adventure travel
+3	1060	Day_trading	day trading
+3	1488	George_H._W._Bush	George W. Bush
+3	1523	Al_Gore	Al Gore
+3	1532	George_H._W._Bush	Bush
+3	1851	George_H._W._Bush	Bush
+3	1888	Political_journalism	political journalist
+3	1912	United_States	America
+4	33	Day_trading	Day Trading
+4	148	Atlanta	Atlanta
+4	275	Day_trading	day trading
+4	362	Day_trading	day trading
+4	477	Computer_monitor	computer screen
+4	573	Day_trading	day trading
+4	966	Day_trader	day traders
+4	1045	Day_trading	day trading
+4	1158	Day_trader	day traders
+4	1233	S&P_500_Index	S&P 500
+4	1267	Index_fund	index fund
+4	1341	Index_fund	index fund
+4	1369	Opportunity_cost	opportunity cost
+4	1449	Day_trader	day traders
+4	1506	Opportunity_cost	opportunity cost
+4	1640	Day_trading	Day trading
+4	1717		stock prices
+4	1810	Higher_education	academic studies
+4	1883		stock prices
+4	1916	Random_walk	random walk
+5	61	The_Washington_Post	The Washington Post
+5	83	The_New_York_Times	New York Times
+5	104	Los_Angeles_Times	Los Angeles Times
+5	199	Tax_cut	tax cut
+5	265	United_States	USA
+5	355		Salt Lake Olympics
+5	423	Plea_bargain	plea bargain
+5	519		Salt Lake Olympic
+5	576	International_Olympic_Committee	IOC
+5	592	South_Korea	South Korea
+5	645	Republican_Party_(United_States)	GOP
+5	660	Appropriation_bill	tax bill
+5	745	Percentage_point	percentage point
+5	769	Income_tax	income tax
+5	826	Capital_gain	capital gains
+5	889	Marriage_penalty	marriage penalty
+5	963	Inheritance_tax	inheritance tax
+5	1018	Tax_rate	tax rate
+5	1091	Government_debt	national debt
+5	1106	Bill_Clinton	President Clinton
+5	1214	Los_Angeles_Times	LAT
+5	1222	The_Wall_Street_Journal	Wall Street Journal
+5	1429	Bill_Clinton	Clinton
+5	1516	The_Washington_Post	WP
+5	1639	Tax_credit	tax credit
+5	1693	Glittering_Prize_81/92	glittering prize
+5	1784	Dick_Armey	Dick Armey
+5	1818	White_House	White House
+5	1859	The_Wall_Street_Journal	WSJ
+5	1929	Tax_law	tax code
+5	1991	Income_tax_in_the_United_States	federal income tax
+6	227	New_Jersey	New Jersey
+6	309	The_New_York_Times	New York Times
+6	488	The_New_York_Times	Times
+6	575	The_New_York_Times	Times
+6	876	Howell_Raines	Howell Raines
+6	915	The_New_York_Times	Times
+6	1036	Hillary_Clinton	Hillary
+6	1198	The_New_York_Times	Times
+6	1315	The_New_York_Times	Times
+6	1447	Journalism_school	journalism schools
+6	1572	Hillary_Clinton	Mrs. Clinton
+6	1589		Mayor Rudolph Guiliani
+6	1627		Republican nominee
+6	1855	New_York_Post	New York Post
+6	1972	AARP_The_Magazine	Modern Maturity
+6	2034	AARP	AARP
+7	33	Hillary_Clinton	Hillary
+7	43	Historical_Jesus	Jesus
+7	124	The_Times	The Times
+7	220	Maureen_Dowd	Maureen Dowd
+7	268	Maureen_Dowd	Dowd
+7	301	Hillary_Clinton	Hillary
+7	361	Hillary_Clinton	Hillary
+7	442	Hillary_Clinton	Hillary
+7	470	Historical_Jesus	Jesus
+7	499	Maureen_Dowd	Dowd
+7	517	Hillary_Clinton	Clinton
+7	537	Lucinda_Franks	Lucinda Franks
+7	567	New_York_County_District_Attorney	Manhattan D.A.
+7	595	Italy	Giuliani
+7	612	Robert_M._Morgenthau	Robert Morgenthau
+7	631	The_Times	The Times
+7	720	Maureen_Dowd	Dowd
+7	939	AARP	AARP
+7	1028	AARP_The_Magazine	Modern Maturity
+7	1142	AARP_The_Magazine	Modern Maturity
+7	1579	CNN	CNN
+7	1670	The_Washington_Post	the Washington Post
+8	54	Norman_Mailer	Norman Mailer
+8	180	English_language	English language
+8	206	Hillary_Clinton	Clinton
+8	273	Lucinda_Franks	Lucinda Franks
+8	301	Rudy_Giuliani	Rudy
+8	376	New_York_County_District_Attorney	Manhattan DA
+8	431		Senator Giuliani
+8	541	Social_security	Social Security
+8	661	Norman_conquest_of_England	New York
+8	764	Hillary_Clinton	Hillary
+8	796	Al_Gore	Al Gore
+8	867	Rudy_Giuliani	Rudy
+8	910	Hillary_Clinton	Hillary
+8	959	Norman_conquest_of_England	New York
+8	979	Jesse_Ventura	Jesse Ventura
+8	1024	Norman_Mailer	Norman Mailer
+8	1097	The_Washington_Post	the Washington Post
+8	1133	AARP	AARP
+8	1268	AARP	AARP
+8	1413	Life_table	mortality tables
+8	1547	George_Washington	Washington
+8	1598	Advertising_campaign	ad campaign
+8	1627		The AARP
+9	176	Norman_conquest_of_England	New York
+9	233	Al_Gore	Al Gore
+9	245		George W. Bush.
+9	298	Surname	Giuliani
+9	475	Hillary_Clinton	Hillary
+9	522	Norman_Mailer	Norman Mailer
+9	537	Jesse_Ventura	Jesse Ventura
+9	552	Jerry_Springer	Jerry Springer
+9	700	Willie_Morris	Willie Morris
+9	743	R._W._Apple_Jr.	R.W. Apple
+9	794	Richard_Olney	Richard Olney
+9	892	Richard_Olney_(food_writer)	Olney
+9	1027	Richard_Olney_(food_writer)	Olney
+9	1366	The_New_York_Times	the Times
+9	1702	The_New_York_Times	the Times
+9	1734	Richard_Olney_(food_writer)	Olney
+9	1809	Richard_Olney_(food_writer)	Olney
+9	1843	Alice_Waters	Alice Waters
+10	319	Al_Gore	Al Gore
+10	334		2000 presidential race
+10	369	Wealth	material wealth
+10	388	United_States	America
+10	500		George W. Bush campaign
+10	562	George_W._Bush	W.
+10	678	Indianapolis_500	Indianapolis
+10	719		The invisible hand
+10	760	George_H._W._Bush	Bush
+10	796	Heart	human heart
+10	821	Bill_Bradley	Bill Bradley
+10	906	Tim_Russert	Tim Russert
+10	924	Bush_regeneration	Bradley
+10	976	Society_of_the_United_States	American society
+10	1014	Bush_regeneration	Bradley
+10	1490	George_H._W._Bush	Bush
+10	1499	Bush_regeneration	Bradley
+10	1577	Jimmy_Carter	Jimmy Carter
+10	1592	Presidency_of_Jimmy_Carter	malaise speech
+10	1628	Hillary_Clinton	Hillary Clinton
+11	33	Hillary_Clinton	Hillary
+11	45	Rudy_Giuliani	Rudy
+11	62		Mud Bath
+11	191		three-martini
+11	280	Republican_Party_(United_States)	Republicans
+11	399	Rudy_Giuliani	Rudy Giuliani
+11	482	Hillary_Clinton	Hillary
+11	551	New_York	New York
+11	569	Divine_presence	divine presence
+11	628	Warning_sign	warning signs
+11	679	Rudy_Giuliani	Giuliani
+11	761	Media_strategy	media strategy
+11	812	Rudy_Giuliani	Rudy
+11	829		mayoral election
+11	907	New_York	New York
+11	1066	Trent_Lott	Trent Lott
+11	1080	Party_leaders_of_the_United_States_Senate	Senate majority leader
+11	1110	Rudy_Giuliani	Giuliani
+11	1155	Legislature	legislative body
+11	1323		Hillary-Rudy Senate race
+11	1378		high-minded debate
+11	1400	Public_housing	public housing
+11	1441		dairy farmers
+11	1460		Giuliani-Clinton campaign
+11	1529		dueling negative ads
+11	1587	Police_brutality	police brutality
+11	1674	Mud_bath	mud bath
+11	1810	Bill_Bradley	Bill Bradley
+11	1827	John_McCain	John McCain
+12	33	Hillary_Clinton	Hillary
+12	45	Rudy_Giuliani	Rudy
+12	147		New York Senate race
+12	280	Rudy_Giuliani	Giuliani
+12	390	Rudy_Giuliani	Giuliani
+12	462	Al_Gore	Al Gore
+12	616		Clinton-Giuliani matchup
+12	730		local politician
+12	844	Hillary_Clinton	Hillary
+12	900	Policy_wonk	policy wonk
+12	913	Rudy_Giuliani	Rudy
+12	918	Rudy_Giuliani	Rudy
+12	943	City_manager	city manager
+12	1078	Rudy_Giuliani	Giuliani
+12	1425	Hillary_Clinton	Hillary
+12	1449	Rudy_Giuliani	Rudy
+12	1579	Rudy_Giuliani	Giuliani
+12	1616	Chuck_Schumer	Schumer
+12	1722	Hillary_Clinton	Hillary
+12	1839	John_F._Kennedy	JFK
+12	1873		talk-show hosts
+12	1901	Kennedy_family	Kennedy family
+12	1938	Dynasty	political dynasty
+12	1984	Hillary_Clinton	Hillary
+13	108	John_F._Kennedy_Jr.	John Kennedy
+13	123	George_(magazine)	George
+13	148	Tina_Brown	Tina Brown
+13	572	Martha_Stewart_Living	Martha Stewart Living
+13	680	United_States	the United States
+13	930		Cond?¡ì? Nast
+13	943	Vanity_Fair_(magazine)	Vanity Fair
+13	1012	Time_Warner	Time Warner
+13	1078	Public	general interest
+13	1098		Cond¡§? Nast
+13	1203	Vanity_Fair_(magazine)	Vanity Fair
+13	1469	George_(magazine)	George
+13	1895	The_Junk_Mail	junk mail
+14	68	The_New_York_Times	The New York Times
+14	102	United_States_Department_of_the_Treasury	U.S. Treasury
+14	218	Government_bond	government bonds
+14	248		maturity dates
+14	268	Los_Angeles_Times	Los Angeles Times
+14	333	California	California
+14	354		water agencies
+14	441	Colorado_River	Colorado River
+14	567	The_Washington_Post	Washington Post
+14	602		Maryland governor
+14	688		lawn sprinklers
+14	798	Senate	Senate
+14	901	Drought	drought conditions
+14	940		commodities prices
+14	1048	Balanced_budget	budget surplus
+14	1136	USA_Today	USA
+14	1160	Supreme_Court_of_New_Jersey	New Jersey Supreme Court
+14	1203	Scout_(Scouting)	Boy Scouts
+14	1343		high courts
+14	1425	Supreme_Court_of_the_United_States	U.S. Supreme Court
+14	1492	Nathan_Post	Post
+14	1577	The_New_York_Times	NYT
+14	1795	Tax_cut	tax cut
+15	37	The_New_York_Times	New York Times
+15	55	Urban_planner	Urban Planner
+15	121	The_New_York_Times	New York Times
+15	337	NoMad,_Manhattan	NoMad
+15	357	Madison_Square	Madison Park
+15	471	SoHo,_Manhattan	Soho
+15	487		south of Houston
+15	505	Tribeca	Tribeca
+15	535	Canal	canal
+15	546	New_York_City	Dumbo
+15	570	Manhattan_Bridge	Manhattan Bridge
+15	624	New_York_City	New Yorkers
+15	672	NoMad,_Manhattan	NoMad
+15	732		execs
+15	845	Real_estate_appraisal	housing prices
+15	885	Elle_(magazine)	Elle magazine
+15	964	The_New_York_Times	Times
+15	1114	Lincoln_Tunnel	Lincoln Tunnel
+15	1137		Jacob Javitz convention center
+15	1258	The_New_York_Times	Times
+15	1394	The_Wall_Street_Journal	Wall Street Journal
+15	1427	Microsoft	Microsoft
+15	1456	AOL	AOL
+15	1532	AOL	AOL
+15	1646	AOL	AOL
+15	1664	AOL	AOL
+15	1684	Lotus_1-2-3	Lotus
+15	1694	Netscape	Netscape
+15	1710	Microsoft	Microsoft
+15	1930	Information_Age	digital culture
+16	33	Hillary_Clinton	Hilary
+16	116		Manhattan neighborhood
+16	177	Upper_West_Side	Upper West Side
+16	202	The_Washington_Times	Times
+16	249		Circuits
+16	334		F train
+16	455	The_Washington_Post	Washington Post
+16	474		Alan Sipress
+16	501	Los_Alamos_National_Laboratory	Los Alamos National Laboratory
+16	558	Traffic_analysis	traffic patterns
+16	654	Traffic_bottleneck	bottlenecks
+16	770	Insight_on_the_News	insight
+16	779	Surname	Alas
+16	812	Los_Alamos_National_Laboratory	Los Alamos
+16	883	Metaphor	metaphors
+16	905	Traffic_congestion	traffic jams
+16	934	Properties_of_water	water molecules
+16	1133	Chris_Barrett	Chris Barrett
+16	1187	Los_Alamos_National_Laboratory	Los Alamos
+16	1272	Mail	Post
+16	1286	Dwight_D._Eisenhower	Dwight Eisenhower
+16	1363	Interstate_Highway_System	interstate highway system
+16	1444	Rich_Galen	Rich Galen
+16	1508	Hillary_Clinton	Hillary
+16	1865	Newsweek	Newsweek
+16	2028	Ronald_Reagan	Reagan
+17	54		Baby Sitter
+17	185	The_New_York_Times	New York Times
+17	220	Pediatrics	Pediatricians
+17	351	Pediatrics	Pediatricians
+17	391		media histories
+17	419	Medical_history	medical histories
+17	527	Media_literacy	media literacy
+17	578	Health_maintenance_organization	HMO
+17	1050	Kevin_McDonald	McDonald
+17	1512	Air_conditioning	air conditioning
+17	1863	Social_aspects_of_television	boob tube
+17	1923		baby sitters
+18	37	Literary_criticism	Poetics
+18	48		Traffic Jams
+18	150	Thermodynamics	thermodynamics
+18	225	Scientific_theory	scientific theories
+18	494	List_of_elections_in_2000	2000 election
+18	724	Interstate_495_(Capital_Beltway)	Capital Beltway
+18	748	Woodrow_Wilson_Bridge	Woodrow Wilson Bridge
+18	904	Rhetoric	rhetoric
+18	970		local issues
+18	1066	New_York_City	New Yorkers
+18	1192	Hotel	hotel room
+18	1371	New_York_City	the City of New York
+18	1494	New_York_City	New York
+18	1519	Charlie_Parker	diversity
+18	1539	Business	businesses
+18	1575	Infrastructure	infrastructure
+18	1710	New_York_City	New York City
+18	1795	New_York	New York State
+18	1989		radio hosts
+18	2011	Hillary_Clinton	Hillary
+19	159	Supermarket_Sweep	Supermarket Sweep
+19	229	British_English	Cheerios
+19	261		Porterhouse steaks

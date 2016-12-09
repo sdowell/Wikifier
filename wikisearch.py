@@ -162,7 +162,7 @@ class WikiSearch:
 				return results
 			#print("outlinks for " + d.title)
 			#print(d.outlinks)
-			print("Treating " + query + " as disambiguous")
+			#print("Treating " + query + " as disambiguous")
 			for l in d.outlinks:
 				newpage = site.pages[l]
 				newpage = newpage.resolve_redirect()
