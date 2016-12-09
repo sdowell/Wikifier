@@ -13,9 +13,9 @@ def getWikiName(url):
 	
 class Disambiguator:
 	
-	def __init__(self, w, db, use_nn=False, trainfiles=None, ngrams=1):
+	def __init__(self, w, db, use_nn=False, trainfiles=None):
 		self.wiki = WikiSearch(db)
-		self.simrank = simRank(ngrams)
+		self.simrank = simRank()
 		self.probrank = priorProbRank()
 		self.weight = w
 		self.failedSearches = 0
