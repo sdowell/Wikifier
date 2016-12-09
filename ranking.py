@@ -3,6 +3,7 @@ from sklearn.datasets import fetch_20newsgroups
 from sklearn.metrics.pairwise import linear_kernel
 from nltk.stem import PorterStemmer
 from math import log10
+import pickle
 
 if __name__ == "__main__":
 	#twenty = fetch_20newsgroups()
@@ -20,16 +21,43 @@ if __name__ == "__main__":
 class simRank:
 	def __init__(self):
 		return
+		try:
+			with open('dictionary.pickle', 'rb') as handle:
+				self.dict = set(pickle.load(handle))
+				print("Dictionary loaded from file")
+		except:
+			print("No dictionary found, creating new dict")
+			self.dict = set()
+		return
 
 	def rank(self, query, docs):
 		docs.insert(0, query)
-		ps = PorterStemmer()
+		#ps = PorterStemmer()
 		#for doc in docs:
+		#for doc in docs:
+		#	for w in doc.split():
+		#		self.dict.add(w)
 		#docs = [" ".join([ps.stem(w) for w in doc.split()]) for doc in docs]
-		tfidf = TfidfVectorizer().fit_transform(docs)
+		#tfidf = TfidfVectorizer(stop_words = "english", ngram_range=(1,3), analyzer="word").fit_transform(docs)
+		tfidf = TfidfVectorizer(stop_words = "english", analyzer="word").fit_transform(docs)
+		#print("Numdocs = " + str(len(docs)))
+		#print(tfidf.shape)
 		cosine_similarities = linear_kernel(tfidf[0:1], tfidf).flatten()
 		#print(cosine_similarities)
+		#with open('dictionary.pickle', 'wb') as handle:
+		#	pickle.dump(self.dict, handle,  protocol=pickle.HIGHEST_PROTOCOL)
 		return cosine_similarities[1:]
+		#cs = cosine_similarities[1:]
+		#tot = sum(cs)
+		#print(tot)
+		#print(cs)
+		#cs = [x / tot for x in cs]
+		#print(cs)
+		#return cs
+	
+	def tfidf(self, query, docs):
+		tfidf = TfidfVectorizer().fit_transform(docs)
+		return tfidf
 	
 	def sim():
 		return

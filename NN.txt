@@ -47,7 +47,7 @@
 5	83	The_New_York_Times	New York Times
 5	104	Los_Angeles_Times	Los Angeles Times
 5	199	Tax_cut	tax cut
-5	265	USA_Freedom_Act	USA
+5	265	USA_Today	USA
 5	355		Salt Lake Olympics
 5	423	Plea_bargain	plea bargain
 5	519		Salt Lake Olympic
@@ -132,7 +132,7 @@
 8	1133	AARP	AARP
 8	1268	AARP	AARP
 8	1413	Life_table	mortality tables
-8	1547	Washington_Mills,_New_York	Washington
+8	1547	Word-sense_disambiguation	Washington
 8	1598	Advertising_campaign	ad campaign
 8	1627		The AARP
 9	176	Norman_conquest_of_England	New York
@@ -145,7 +145,7 @@
 9	552	Jerry_Springer	Jerry Springer
 9	700	Willie_Morris	Willie Morris
 9	743	R._W._Apple_Jr.	R.W. Apple
-9	794	Richard_Olney	Richard Olney
+9	794	Richard_Olney_(food_writer)	Richard Olney
 9	892	Richard_Olney_(food_writer)	Olney
 9	1027	Richard_Olney_(food_writer)	Olney
 9	1366	The_New_York_Times	the Times
@@ -165,11 +165,11 @@
 10	796	Heart	human heart
 10	821	Bill_Bradley	Bill Bradley
 10	906	Tim_Russert	Tim Russert
-10	924	Bill_Bradley	Bradley
+10	924	Bradley_effect	Bradley
 10	976	Society_of_the_United_States	American society
-10	1014	Bill_Bradley	Bradley
+10	1014	Bradley_effect	Bradley
 10	1490	George_H._W._Bush	Bush
-10	1499	Bill_Bradley	Bradley
+10	1499	Bradley_effect	Bradley
 10	1577	Jimmy_Carter	Jimmy Carter
 10	1592	Presidency_of_Jimmy_Carter	malaise speech
 10	1628	Hillary_Clinton	Hillary Clinton
@@ -232,11 +232,11 @@
 13	572	Martha_Stewart_Living	Martha Stewart Living
 13	680	United_States	the United States
 13	930		Cond?¡ì? Nast
-13	943	Vanity_Fair_(US_magazine_191336)	Vanity Fair
+13	943	Vanity_Fair_(magazine)	Vanity Fair
 13	1012	Time_Warner	Time Warner
 13	1078	Common_good	general interest
 13	1098		Cond¡§? Nast
-13	1203	Vanity_Fair_(US_magazine_191336)	Vanity Fair
+13	1203	Vanity_Fair_(magazine)	Vanity Fair
 13	1469	George_(magazine)	George
 13	1895	The_Junk_Mail	junk mail
 14	68	The_New_York_Times	The New York Times
@@ -259,7 +259,7 @@
 14	1203	Scout_(Scouting)	Boy Scouts
 14	1343		high courts
 14	1425	Supreme_Court_of_the_United_States	U.S. Supreme Court
-14	1492	Laurens_van_der_Post	Post
+14	1492	Robert_Post_(law_professor)	Post
 14	1577	The_New_York_Times	NYT
 14	1795	Tax_cut	tax cut
 15	37	The_New_York_Times	New York Times
@@ -271,7 +271,7 @@
 15	487		south of Houston
 15	505	Tribeca	Tribeca
 15	535	Canal	canal
-15	546	Dumbo,_Brooklyn	Dumbo
+15	546	New_York_City	Dumbo
 15	570	Manhattan_Bridge	Manhattan Bridge
 15	624	New_York_City	New Yorkers
 15	672	NoMad,_Manhattan	NoMad
@@ -343,9 +343,13 @@
 18	1192	Hotel	hotel room
 18	1371	New_York_City	the City of New York
 18	1494	New_York_City	New York
-18	1519	Diversity_combining	diversity
+18	1519	Charlie_Parker	diversity
 18	1539	Business	businesses
 18	1575	Infrastructure	infrastructure
 18	1710	New_York_City	New York City
 18	1795	New_York	New York State
-
+18	1989		radio hosts
+18	2011	Hillary_Clinton	Hillary
+19	159	Supermarket_Sweep	Supermarket Sweep
+19	229	Cheerios	Cheerios
+19	261		Porterhouse steaks

@@ -44,8 +44,8 @@ class WikiPage:
 			
 	def parseContent(self, content):
 		#text = re.sub(r'[^a-zA-Z0-9]',' ', content)
-		#text = re.sub(r'\W*\b\w{1,3}\b', '', text)
 		text = re.sub(r'[^\x00-\x7F]',' ', content)
+		text = re.sub(r'\W*\b\w{1,3}\b', '', text)
 		text = ' '.join([word for word in text.split() if word not in sws])
 		return text
 		

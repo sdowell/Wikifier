@@ -38,10 +38,14 @@ def trainTwitter(weights, trainfile, db):
 	print("Training Twitter...")
 	results = {}
 	output = ["" for i in range(0,len(trainfile))]
-	print(len(output))
+	#print(len(output))
+	fs = 0
 	for w in weights:
 		print("--------------------Solving for weight " + str(w) + "--------------------")
-		d = Disambiguator(w, db)
+		if str(w) == "NN":
+			d = Disambiguator(w, db, use_nn=True, trainfiles=["wise_trigramtrain.txt"])
+		else:
+			d = Disambiguator(w, db)
 		pos = 0
 		tot = 0
 		count = 0
@@ -76,22 +80,28 @@ def trainTwitter(weights, trainfile, db):
 				acc = float(pos) / float(count)
 				print(str(count) + ": " + str(acc))
 		print("Failed searches: " + str(d.failedSearches))
+		fs = d.failedSearches
 		#outfile = open(str(w) + ".txt", "w")
 		#for line in output:
 		#	outfile.write(line)
 		#outfile.close()
 			
 		results[w] = pos
-	return results
+		#break
+	return (results, fs)
 	
 def train(weights, trainfile, db):
 	print("Training...")
 	results = {}
 	output = ["" for i in range(0,len(trainfile))]
-	print(len(output))
+	fs = 0
+	#print(len(output))
 	for w in weights:
 		print("--------------------Solving for weight " + str(w) + "--------------------")
-		d = Disambiguator(w, db)
+		if str(w) == "NN":
+			d = Disambiguator(w, db, use_nn=True, trainfiles=["wise_trigramtrain.txt"])
+		else:
+			d = Disambiguator(w, db)
 		pos = 0
 		tot = 0
 		count = 0
@@ -126,13 +136,15 @@ def train(weights, trainfile, db):
 				acc = float(pos) / float(count)
 				print(str(count) + ": " + str(acc))
 		print("Failed searches: " + str(d.failedSearches))
+		fs = d.failedSearches
 		outfile = open(str(w) + ".txt", "w")
 		for line in output:
 			outfile.write(line)
 		outfile.close()
-			
+	
 		results[w] = pos
-	return results
+		#break
+	return (results, fs)
 
 def main(argv):
 	parser = argparse.ArgumentParser()
@@ -140,14 +152,21 @@ def main(argv):
 	parser.add_argument("-w", "--wise", help="file holding wise dataset")
 	parser.add_argument("-d", "--database", help="name of database file")
 	parser.add_argument("-g", "--weights", help="comma delimited list of weights")
-	parser.add_argument
+	parser.add_argument("-n", "--neuralnet", help="use neural network model for ranking", action="store_true")
+	parser.add_argument("-p", "--printfile", help="print output to file")
 	args = parser.parse_args()
 	db = "wikipedia.db"
+	if args.printfile:
+		outfile = open(args.printfile, "w")
 	if args.database:
 		db = args.database
-	weights = [0.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0]
+	weights = []
 	if args.weights:
 		weights = [float(w) for w in args.weights.split(",")]
+	if args.neuralnet:
+		weights.append("NN")
+	elif len(weights) == 0:
+		weights = [0.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0]
 	if args.twitter:
 		trainfile = args.twitter
 		traindata = parseTrainFile(trainfile)
@@ -155,31 +174,41 @@ def main(argv):
 		#weights = [0.05,.06,.07,.08,.09,.1,.11,.12,.13,.14,.15]
 		data = traindata
 		t0 = time.clock()
-		results = trainTwitter(weights, data, db)
+		results, fs = trainTwitter(weights, data, db)
 		t1 = time.clock()
 		total = t1 - t0
 		print("Training Time: " + str(total))
+		print("Twitter accuracy results:")
+		accs = []
 		for w in weights:
 			if w in results:
-				acc = float(results[w]) / float(len(data))
+				acc = float(results[w]) / float(len(data) - fs)
 				print(str(w) + ": " + str(acc))
-		
+				accs.append(str(acc))
+		print(" ".join(accs))
+		if args.printfile:
+			print(" ".join(accs), file = outfile)
 	if args.wise:
 		trainfile = args.wise
 		traindata = parseTrainFile(trainfile)
 		#print(traindata[0:10])
 		#weights = [0.0,.1,.2,.3,.4,.5,.6,.7,.8,.9,1.0]
-		data = traindata[0:350]
+		data = traindata[:355]
 		t0 = time.clock()
-		results = train(weights, data, db)
+		results, fs = train(weights, data, db)
 		t1 = time.clock()
 		total = t1 - t0
 		print("Training Time: " + str(total))
+		print("WISE accuracy results:")
+		accs = []
 		for w in weights:
 			if w in results:
-				acc = float(results[w]) / float(len(data))
+				acc = float(results[w]) / float(len(data) - fs)
 				print(str(w) + ": " + str(acc))
-
+				accs.append(str(acc))
+		print(" ".join(accs))
+		if args.printfile:
+			print(" ".join(accs), file = outfile)
 	return
 	if len(argv) == 0:
 		print("Expected trainfile")

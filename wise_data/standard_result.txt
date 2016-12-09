@@ -117,7 +117,7 @@
 8	206	bill_clinton	Clinton	2
 8	273	Lucinda_Franks	Lucinda Franks	2
 8	301	Rudy_Giuliani	Rudy	2
-8	376	New_York_County_District_ttorney	Manhattan DA	2
+8	376	New_York_County_District_Attorney	Manhattan DA	2
 8	431	Rudy_Giuliani	Senator Giuliani	2
 8	541	social_security_(United_States)	Social Security	2
 8	661	New_York	New York	2
@@ -171,7 +171,7 @@
 10	1490	george_w_bush	Bush	2
 10	1499	Bill_Bradley	Bradley	2
 10	1577	President_Jimmy_Carter	Jimmy Carter	2
-10	1592	Presidency_of_Jimmy _arter	malaise speech	1
+10	1592	Presidency_of_Jimmy_Carter	malaise speech	1
 10	1628	Hillary_Rodham_Clinton	Hillary Clinton	2
 11	33	Hillary_Clinton	Hillary	2
 11	45	Rudy_Giuliani	Rudy	2
@@ -265,7 +265,7 @@
 15	37	New_York_Times	New York Times	2
 15	55	Urban_Planner	Urban Planner	1
 15	121	New_York_Times	New York Times	2
-15	337	nomad	NoMad	2
+15	337	NoMad	NoMad	2
 15	357	Madison_Park	Madison Park	2
 15	471	SoHo	Soho	2
 15	487	Soho	south of Houston	2
@@ -274,7 +274,7 @@
 15	546	Dumbo,_Brooklyn	Dumbo	2
 15	570	Manhattan_bridge	Manhattan Bridge	2
 15	624	New_Yorker	New Yorkers	2
-15	672	nomad	NoMad	2
+15	672	NoMad	NoMad	2
 15	732	Exec	execs	1
 15	845	Real_estate_pricing	housing prices	1
 15	885	Elle_magazine	Elle magazine	2
@@ -313,7 +313,7 @@
 16	1187	Los_Alamos_National_Laboratory	Los Alamos	2
 16	1272	Washington_post	Post	2
 16	1286	Dwight_Eisenhower	Dwight Eisenhower	2
-16	1363	Interstate_Highway_System"	interstate highway system	1
+16	1363	Interstate_Highway_System	interstate highway system	1
 16	1444	Rich_Galen	Rich Galen	2
 16	1508	Hillary_Clinton	Hillary	2
 16	1865	Newsweek_Magazine	Newsweek	2
